@@ -1,6 +1,8 @@
-var a = "abc";
-var b = "abcd";
+//criação das variáveis
+let a = "abc";
+let b = "abcd";
 
+//compara duas strings e retorna a maior
 function compara(a,b){
     if(a > b){
         return a;
@@ -9,4 +11,5 @@ function compara(a,b){
     }
 }
 
+//imprime a maior
 console.log(compara(a,b));
