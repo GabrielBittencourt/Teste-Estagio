@@ -1,8 +1,8 @@
-var teste = "teste 1 de 2 string 3";
+//string criada
+let string = "teste 1 de 2 string 3 ";
 
+//troca todos os valores da string que não estejam no intervalo a-z ou A-Z por [removido]
+string = string.replace(/[^a-z][^A-Z][" "]/g, "[removido]");
 
-teste = teste.replace(/1/g, "[removido]");
-teste = teste.replace(/2/g, "[removido]");
-teste = teste.replace(/3/g, "[removido]");
-
-console.log(teste);
+//imprime o resultado
+console.log(string);
